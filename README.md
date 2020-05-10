@@ -1,85 +1,102 @@
-# Netwhat
-This project is an introduction to network problematics
+ Netwhat
+This project is an introduction to **network problematics**
 
-Netwhat will allow you to discover the network and to learn about its inner workings.
+**Netwhat** will allow you to discover the network and to learn about its inner workings.
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
 
 ## Basic Concepts
 
-### What is an IP address 
+### 1. What is an IP address 
 It is a network address for our computers and the internet knows where to send informations and data.
-<network><host>
+<network> <host>
 
-### What is a Netmask
+### 2. What is a Netmask
 A Netmask is a 32-bit "mask" used to divide an IP address into subnets and specify the network's available hosts.
 
 
-### What is the subnet of an IP with Netmask
-<network><subnet><host>
+### 3. What is the subnet of an IP with Netmask
+
+<network> <subnet> <host>
 
 
-### What is the broadcast address of a subnet
+### 4. What is the broadcast address of a subnet
 Highest IP address in a subnet or network, used as the destination IP address for broadcast messages.
 
 How to find broadcast address:
 
-Class A
+**Class A**
 
+```bash
 10.20.11.5
 255.0.0.0
 ---------
 10.255.255.255  <= Broadcast Address
+```
 
 **Class B**
 
+```bash
 172.16.20.20
 255.255.255.0
 --------------
 172.16.20.255
-
+```
 **Class C**
- 
+
+```bash
 192.168.2.33
 255.255.255.246
 ---------------
 192.168.2.**39**
+```
 
-Aditional steps:
+**Aditional steps:**
 
 * First step: subtrac octect from 256 (this is called our multiplier)
+
+```bash
 256-
 246
 ----
   8
+```
 
 * Second step: How many multiples of this number do we need to come up with in order to get just greater than 33 but as close to it as possible:
 
-8  + 8
-16 + 8
-24 + 8
-32 + 8
-40 - 1 = 39
-
+```bash
+ 8  + 8
+ 16 + 8
+ 24 + 8
+ 32 + 8
+ 40 - 1 = 39
+```
 
 Another example:
 
+```bash
 172.16.20.10
 255.255.240.0
 --------------
 172.16.**31**.255
+```
 
 * First step: 
+```bash
 256 - 
 240
 -----
 16
+```
 
+* Second step:
+```bash
 16 + 16
 32 - 1
+```
 
-**remember 2 ruler**
+**Remember 2 ruler**
 
 - 255 in the subnet mast = write dorn IP address octet value
 - 0 in the subnet mask = write down 255
@@ -96,15 +113,15 @@ Is a 32-bit "mask" used to divide an IP address into subnets and specify the net
 
 255.255.255.0 is applied to the 129.144.41.101 , the result is the IPv4 address of 129.144.41.0 .
 
-129.144.41.101 & 255.255.255.0 = 129.144.41.0
+**129.144.41.101** & **255.255.255.0** = **129.144.41.0**
 
 In binary form, the operation is:
 
-10000001.10010000.00101001.01100101 (IPv4 address)
+**10000001.10010000.00101001.01100101** (IPv4 address)
 
 AND
 
-11111111.11111111.11111111.00000000 (netmask)
+**11111111.11111111.11111111.00000000** (netmask)
 
 
 
@@ -120,10 +137,11 @@ public Ip  can to be static or dynamic.
 
 IP address in class A, class B and class C.
 
-Class	  Starting IP address	 Ending Ip Address   # of hots
-A 	| 10.0.0.0		| 10.255.255.255   | 16,777,216
-B 	| 172.16.0.0		| 172.31.255.255   | 1,048,576
-C 	| 192.168.0.0		| 192.168.255.255  | 65,536
+| Class	|  Starting IP address	| Ending Ip Address|  # of hots | 
+--------|-----------------------|------------------|------------| 
+|  A 	| 10.0.0.0		| 10.255.255.255   | 16,777,216 |
+|  B 	| 172.16.0.0		| 172.31.255.255   | 1,048,576  |
+|  C 	| 192.168.0.0		| 192.168.255.255  | 65,536     |
 
 ### What is TCP
 
@@ -147,7 +165,7 @@ Main protocols of the internet protol suite.
 	- DHCP
 	- Many computer games
 
-- Why we use UDP?
+**Why we use UDP?**
 
 Many applications that requiere real-time communication prefer to use UDP, applications that requiere speed and that torerat partial data loss.
 
@@ -160,13 +178,15 @@ In the seven-layer OSI model of computer network, the network layer is layer 3. 
 
 The Open System Interconnection (OSI). It has been developed by ISO - 'International Organization of Standardization'. It is a 7 layer architecture with each layer having specific functionality to perform. All tese 7 layers work collaboratively to transmit the data fr4om one person to another across the globe.
 
-- Application Layer	| software layer
-- Presentatation layer	| software layer
-- Session Layer		| software layer
-- Transport Layer	| Heart of OSI
-- Network Layer		| hardware Layer
-- Data Link Layer	| hardware Layer
-- Physical layer	| hardware Layer
+ | layer		| Kind	         |
+ |----------------------|----------------|
+ | Application Layer	| software layer |
+ | Presentatation layer	| software layer |
+ | Session Layer	| software layer |
+ | Transport Layer	| Heart of OSI   |
+ | Network Layer	| hardware Layer |
+ | Data Link Layer	| hardware Layer |
+ | Physical layer	| hardware Layer |
 
 
 ### What is a DHCP server and the DHCP protocol
@@ -191,7 +211,7 @@ The header information includes:
 - Packet numbers that help reassemble the packets in the correct order whe  the packets reach the destination. 
 - other useful technical information.
 
-** How routing works **
+**How routing works**
 
 
 ### What is a default gateway for routing
@@ -203,17 +223,12 @@ to another device
 
 
 
-Resources:
+**Resources**
 
-How to find a Broadcast Address:
-https://www.youtube.com/watch?v=1pZNjRZLNqI
-
-https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8
-
-http://jodies.de/ipcalc?host=148.12.181.53&mask1=20&mask2=
-
-
-https://www.cloudflare.com/learning/dns/what-is-dns/
+- https://www.youtube.com/watch?v=1pZNjRZLNqI
+- https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8
+- http://jodies.de/ipcalc?host=148.12.181.53&mask1=20&mask2=
+- https://www.cloudflare.com/learning/dns/what-is-dns/
 
 
 ###  Technical Terms
