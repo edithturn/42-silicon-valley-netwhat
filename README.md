@@ -1,4 +1,4 @@
- Netwhat
+# Netwhat
 This project is an introduction to **network problematics**
 
 **Netwhat** will allow you to discover the network and to learn about its inner workings.
@@ -31,8 +31,8 @@ How to find broadcast address:
 ```bash
 10.20.11.5
 255.0.0.0
----------
-10.255.255.255  <= Broadcast Address
+-----------
+10.255.255.255  <<== Broadcast Address
 ```
 
 **Class B**
@@ -41,20 +41,20 @@ How to find broadcast address:
 172.16.20.20
 255.255.255.0
 --------------
-172.16.20.255
+172.16.20.255	<== Broadcast Address
 ```
 **Class C**
 
 ```bash
 192.168.2.33
 255.255.255.246
----------------
-192.168.2.**39**
+----------------
+192.168.2.39	<== Broadcast Address
 ```
 
 **Aditional steps:**
 
-* First step: subtrac octect from 256 (this is called our multiplier)
+* **First step:** subtrac octect from 256 (this is called our multiplier)
 
 ```bash
 256-
@@ -63,7 +63,7 @@ How to find broadcast address:
   8
 ```
 
-* Second step: How many multiples of this number do we need to come up with in order to get just greater than 33 but as close to it as possible:
+* **Second step:** How many multiples of this number do we need to come up with in order to get just greater than 33 but as close to it as possible:
 
 ```bash
  8  + 8
@@ -73,16 +73,16 @@ How to find broadcast address:
  40 - 1 = 39
 ```
 
-Another example:
+**Other example:**
 
 ```bash
 172.16.20.10
 255.255.240.0
 --------------
-172.16.**31**.255
+172.16.31.255
 ```
 
-* First step: 
+* **First step:**
 ```bash
 256 - 
 240
@@ -90,28 +90,28 @@ Another example:
 16
 ```
 
-* Second step:
+* **Second step:**
 ```bash
 16 + 16
-32 - 1
+32 - 1  = 31
 ```
 
-**Remember 2 ruler**
+**Remember 2 rulers:**
 
-- 255 in the subnet mast = write dorn IP address octet value
-- 0 in the subnet mask = write down 255
+- 255 in the subnet mast:  write dorn IP address octet value
+- 0 in the subnet mask: write down 255
 - If the subnet mask has an octet whose value doesn't equal to 255 or 0:
-use the formula: 256 - octet = multiplier.
-  Find number greater than IP address octet  but close to it as possible, then subtract 1.
+  use the formula: **256 - octet = multiplier.**
+  Find number **greater than IP address octet  but close to it as possible, then subtract 1.**
 
 
 
-### What are the different ways to represent an ip address with the Netmask
+### 5. What are the different ways to represent an ip address with the Netmask
 
 **Netmask**
 Is a 32-bit "mask" used to divide an IP address into subnets and specify the network's available hosts.
 
-255.255.255.0 is applied to the 129.144.41.101 , the result is the IPv4 address of 129.144.41.0 .
+255.255.255.0 is applied to the 129.144.41.101 , the result is the IPv4 address of **129.144.41.0 .**
 
 **129.144.41.101** & **255.255.255.0** = **129.144.41.0**
 
@@ -125,7 +125,7 @@ AND
 
 
 
-### What are the differences between public and private IPs
+### 6. What are the differences between public and private IPs
 
 public Ip  can to be static or dynamic.
  - A static address is unchanged and is often for hosting websites, server.
@@ -133,7 +133,7 @@ public Ip  can to be static or dynamic.
 
 
 
-### What is a class of IP addresses 
+### 7. What is a class of IP addresses 
 
 IP address in class A, class B and class C.
 
@@ -143,7 +143,7 @@ IP address in class A, class B and class C.
 |  B 	| 172.16.0.0		| 172.31.255.255   | 1,048,576  |
 |  C 	| 192.168.0.0		| 192.168.255.255  | 65,536     |
 
-### What is TCP
+### 8. What is TCP
 
 TCP (Transmision Control Protocol)
 Main protocols of the internet protol suite.
@@ -153,7 +153,7 @@ Main protocols of the internet protol suite.
 - Slower, because of all added additional functionality.
 - Requieres more computer resources, because the OS needs to keep track of ongoing communication sessions and manage them on a much deeper level.
 
-### What is UDP
+### 9. What is UDP
 
 - Doesn't keep track of lost packages
 - Doesn't care about package arrival order.
@@ -169,16 +169,16 @@ Main protocols of the internet protol suite.
 
 Many applications that requiere real-time communication prefer to use UDP, applications that requiere speed and that torerat partial data loss.
 
-### What are the network layers
+### 10. What are the network layers
 
 In the seven-layer OSI model of computer network, the network layer is layer 3. The network layer is responsible for packet forwarding including routing through intermediate routers.
 
 
-### What is the OSI model
+### 11. What is the OSI model
 
 The Open System Interconnection (OSI). It has been developed by ISO - 'International Organization of Standardization'. It is a 7 layer architecture with each layer having specific functionality to perform. All tese 7 layers work collaboratively to transmit the data fr4om one person to another across the globe.
 
- | layer		| Kind	         |
+ | Layer		| Kind	         |
  |----------------------|----------------|
  | Application Layer	| software layer |
  | Presentatation layer	| software layer |
@@ -189,20 +189,20 @@ The Open System Interconnection (OSI). It has been developed by ISO - 'Internati
  | Physical layer	| hardware Layer |
 
 
-### What is a DHCP server and the DHCP protocol
+### 12. What is a DHCP server and the DHCP protocol
  - DHCP server: DHCP (Dynamic Host Confivguration Protocol), is a protocol that provides quick, automatic, and central management for the distribution of IP addresses within a network. DHCP is also used to configure  the subnet mask, default gateway and DNS server information on the device.
 
-### What is a DNS server and the DNS protocol
+### 13. What is a DNS server and the DNS protocol
 
 Domain Name System (DNS) is the phonebook of internet. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load internet resources.
 
 The **Domain Network System (DNS) protocol** helps internet users and network devises discover websites using human-readable hostnames, instead of  numeric IP addresses.
 
-### What are the rules to make 2 devices communicate using IP addresses
+### 14. What are the rules to make 2 devices communicate using IP addresses
 
 
 
-### How does routing work with IP?
+### 15. How does routing work with IP?
 
 - Routing is the process by which data packets move from one node (machine or device) to another on a computer network until the packets reach the final destination.
 
@@ -214,10 +214,10 @@ The header information includes:
 **How routing works**
 
 
-### What is a default gateway for routing
+### 16. What is a default gateway for routing
  It allows devices within one network to send information to devises within another network. If you are requestiong a certain web page, the trafic is first sent to your default gateay before leaving the local network to reach its indended destination.
 
-### What is a port from an IP point of view and what is it used for when connecting
+### 17. What is a port from an IP point of view and what is it used for when connecting
 to another device
 
 
