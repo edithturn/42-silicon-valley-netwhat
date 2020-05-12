@@ -5,7 +5,7 @@ This project is an introduction to **network problematics**
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
-**Class A**
+**Before to start**
 Before to starting the quiz, you need to study the topics described below. To start the quiz execute the following command: 
 ```python
 python nwtwhat_app.py
