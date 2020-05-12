@@ -5,6 +5,11 @@ This project is an introduction to **network problematics**
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
+**Class A**
+Before to starting the quiz, you need to study the topics described below. To start the quiz execute the following command: 
+```python
+python nwtwhat_app.py
+```
 
 ## Basic Concepts
 
@@ -229,6 +234,12 @@ to another device
 - https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8
 - http://jodies.de/ipcalc?host=148.12.181.53&mask1=20&mask2=
 - https://www.cloudflare.com/learning/dns/what-is-dns/
+- https://www.lifewire.com/what-is-an-ethernet-port-817546
+HOW TO CONNECT TO AN ETHERNET DEVICE FOR COMMUNICATION
+-https://acromag.com/wp-content/uploads/2019/06/How-to-Connect-to-an-Ethernet-Device-for-Communication.pdf
+
+
+
 
 
 ###  Technical Terms
@@ -237,6 +248,11 @@ to another device
 |Technical Terms | Definition |
 | ------------- | -------------------------- |
 | subnet mask  	| A subnet mask is a number that defines a range of IP addresses available within a network. 			 |
+| Ethernet port  	| also called a jack or socket, is an opening on computer network equipment that Ethernet cables plug into. Their purpose is to connect wired network hardware in an Ethernet LAN, metropolitan are network (MAN), or wide are network (WAN). 	|
+| host address | The physcal address of a computer in a network. On the internet, a host address is the IP address of the machine. |
+| Ethernet | is a system of connecting more than two devises from a Local Area (LAN for sharing information or resources) |
 
 
 
+**
+pip install questionnaire==1.0.0
