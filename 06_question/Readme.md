@@ -7,7 +7,7 @@
 - 250.160.108.0
 - 250.160.111.128
 
-![alt text](06_question.png)
+![alt text](network_address.png)
 
 Reference: 
 Calc:
