@@ -8,7 +8,8 @@ question_prompt= [
 "How long is an IPv4 address?  \n (a) 64 bits \n (b) 128 bits \n (c) 128 bytes \n (d) 32 bits \n\n",
 "What is the Network address of a host with an IP address of 250.160.111.191/18?  \n (a) 250.160.64.0 \n (b) 250.160.0.0 \n (c) 250.160.111.176 \n (d) 224.0.0.0 \n (e) 250.160.108.0 \n (f) 250.160.111.128 \n\n",
 "What is the maximun number of IP addresses that can be assigned to host on a local subnet that uses the 255.240.0.0 subnet mask? \n (a) 1048576  \n (b) 524284  \n (c) 2097154 \n (d) 1048574 \n (e) 2097150 \n (f) 52488 \n\n",
-"Which of this is not true? \n (a) UDP supports Broadcasting \n (b) There is no sequencing of data in UDP. If ordering is requiered, it has to be managed by the application layer \n (c) UDP is a datagram-oriented protocol \n (d) The delivery of data to the destination cannot be guaranteed in UDP\n (e) UDP has only the basic error checking mechanism using checksums \n (f) UDP is comparatively ower than TCP \n\n"
+"Which of this is not true? \n (a) UDP supports Broadcasting \n (b) There is no sequencing of data in UDP. If ordering is requiered, it has to be managed by the application layer \n (c) UDP is a datagram-oriented protocol \n (d) The delivery of data to the destination cannot be guaranteed in UDP\n (e) UDP has only the basic error checking mechanism using checksums \n (f) UDP is comparatively ower than TCP \n\n",
+"Which protocol does  DHCP use at the Transport layer? \n (a) IP \n (b) ARP \n (c) UDP \n (d) TCP \n\n" 
 ]
 
 questions = [
