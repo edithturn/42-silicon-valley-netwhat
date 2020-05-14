@@ -6,16 +6,16 @@ question_prompt= [
 "Which of the following is the valid host range for the subnet on which the IP address 120.2.67.128/15 resides \n (a) 120.2.0.1-120.3.255.251 \n (b) 120.2.0.2-120.3.255.254 \n (c) 120.2.0.1-120.3.255.253 \n (d) 120.2.0.1-120.4.0.3\n\n",
 "DHCP is used for \n (a) Both IPV6 and IPV4 \n (b) None of the mentioned \n (c) IPv4 \n (d) IPv6 \n\n",
 "How long is an IPv4 address?  \n (a) 64 bits \n (b) 128 bits \n (c) 128 bytes \n (d) 32 bits \n\n",
-"How long is an IPv4 address?  \n (a) 64 bits \n (b) 128 bits \n (c) 128 bytes \n (d) 32 bits \n\n"
-
+"What is the Network address of a host with an IP address of 250.160.111.191/18?  \n (a) 250.160.64.0 \n (b) 250.160.0.0 \n (c) 250.160.111.176 \n (d) 224.0.0.0 \n (e) 250.160.108.0 \n (f) 250.160.111.128 \n\n"
 ]
 
 questions = [
 	Question(question_prompt[0], "c"),
 	Question(question_prompt[1], "b"),
 	Question(question_prompt[2], "b"),
-	Question(question_prompt[3], "a")
-	Question(question_prompt[4], "d")
+	Question(question_prompt[3], "a"),
+	Question(question_prompt[4], "d"),
+	Question(question_prompt[5], "a")
 ]
 
 def run_test(questions):
