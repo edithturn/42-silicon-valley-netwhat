@@ -23,5 +23,5 @@ UDP provides checksums for data integrity, and port numbers for addressing diffe
 
 ![alt text](comparison_udp_utp.png)
 
-
-Answer:  UDP is comparatively ower than TCP is NOT TRUE
+:pencil2: **Answer:**
+**UDP is comparatively ower than TCP is NOT TRUE**
