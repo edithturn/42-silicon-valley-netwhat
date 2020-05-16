@@ -60,14 +60,14 @@ Is a 32-bit "mask" used to divide an IP address into subnets and specify the net
 ```bash
 255.255.255.0 is applied to the 129.144.41.101 , the result is the IPv4 address of 129.144.41.0
 ```
-129.144.41.101 AND 255.255.255.0 = **129.144.41.0**
+129.144.41.101 **AND** 255.255.255.0 = **129.144.41.0**
 
 In binary form, the operation is:
 
 ```bash
 10000001.10010000.00101001.01100101		<== (IPv4 address)
 AND
-11111111.11111111.11111111.00000000			<==(netmask)
+11111111.11111111.11111111.00000000		<==(netmask)
 ```
 
 ### 6. What are the differences between public and private IPs?
@@ -163,14 +163,14 @@ The header information includes:
 In computer networking, a port is a communication endpoint. At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. 
  Ports are identified for each protocol and address combination by 16-bit unsigned numbers, commonly known as the port number. The most common protocols that use port numbers are the Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP).
 
-** :speaker: References :**
+:speaker: **References :**
 
 - [How to Find the Broadcast Address](https://www.youtube.com/watch?v=1pZNjRZLNqI)
 - [Introduction to Networking](https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8)
 - [IP-Calculator](http://jodies.de/ipcalc?host=148.12.181.53&mask1=20&mask2=)
 - [How does DNS work?](https://www.cloudflare.com/learning/dns/what-is-dns/)
 - [What Is an Ethernet Port](https://www.lifewire.com/what-is-an-ethernet-port-817546)
-- [ips addres calculation table](https://docs.google.com/spreadsheets/d/1xzRgyd6p33f28tBspiDal5zapNMFqIewdF_4bOat4SI/edit?usp=sharing) by Michael Giraldo @mgiraldo :boy:
+- [ips addres calculation table](https://docs.google.com/spreadsheets/d/1xzRgyd6p33f28tBspiDal5zapNMFqIewdF_4bOat4SI/edit?usp=sharing) by **Michael Giraldo @mgiraldo** :boy:
 - [training to nwtwhat](https://github.com/abdlalisalmi/netwhat-trainer)
 
 
