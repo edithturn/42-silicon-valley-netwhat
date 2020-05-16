@@ -28,6 +28,7 @@ You got 1/20 Correct
 Time taken: 00:00:20
 ```
 
+
 ## Basic Concepts :books:
 First of all, you should know a few things:
 
@@ -54,8 +55,7 @@ Highest IP address in a subnet or network, used as the destination IP address fo
 
 ### 5. What are the different ways to represent an ip address with the Netmask?
 
-**Netmask**
-Is a 32-bit "mask" used to divide an IP address into subnets and specify the network's available hosts.
+Netmask is a 32-bit "mask" used to divide an IP address into subnets and specify the network's available hosts.
 
 ```bash
 255.255.255.0 is applied to the 129.144.41.101 , the result is the IPv4 address of 129.144.41.0
