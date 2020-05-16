@@ -1,23 +1,27 @@
-What are the different layers of the OSI model?
+**What are the different layers of the OSI model?**
 
-Application: 
+**Application:**
 - End user Layer
 - HTTP, FTP, IRC, SSH, DNS
-Presentation
+**Presentation**
 - Syntax layer
 - SSL, SSH, IMAP, FTP, JPEG
- Session
+ **Session**
  - Synch & send to port
  - API's, Socets, WinSock
- Transport
+ **Transport**
  - End-to-end connections
  - TCP, UDP
- Network
+ **Network**
  - Packets
  - IP, ICMP, IPSec, IGMP
- Data Link
+ **Data Link**
  - Frames
  - Ethernet, PPP, Switch, Bridge
- Physical
+ **Physical**
  - Physical structure
  - Coax, Fiber, Wireless, Hubs, Repeaters
+
+ :pencil2: **Answer:**
+ 
+**Application ->Presentation->Session->Transport->Network->Data Link->Physical**
