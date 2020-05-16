@@ -1,4 +1,5 @@
-If an Ethernet port on a router were assigned an IP address of 21.121.54.71/15, which host address would be able to communicate with it? 
+**If an Ethernet port on a router were assigned an IP address of 21.121.54.71/15, which host address would be able to communicate with it?**
+
 - (a) 166.121.177.233
 - (b) 95.199.103.46
 - (c) 21.121.241.69
@@ -13,8 +14,9 @@ On a computer network, all devices that are connected to the same local network 
 ![alt text](01_question.png)
 
 
-Answer: 21.121.241.69 would be able to communicate with 21.121.54.71/15.
+:pencil2: **Answer:**
+21.121.241.69 would be able to communicate with 21.121.54.71/15.
 
 
-source: 
-https://www.homenethowto.com/basics/ip-addresses/
+:fireworks: **Reference:**
+- [IP addresses](https://www.homenethowto.com/basics/ip-addresses/)
