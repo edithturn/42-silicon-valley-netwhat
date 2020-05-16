@@ -2,5 +2,8 @@
 
 ![alt text](maximum_number_ip_addresses.png)
 
+
+![alt text](subnet_mask_table.png)
+
  :pencil2: **Answer:**
 **maximun number of IP addresses : 6**
