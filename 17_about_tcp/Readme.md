@@ -1,4 +1,4 @@
-Which of this is not true?
+**Which of this is not true?**
 
 - TC is reliable as it guarantees delivery of data to the destination router.
 - TCP provides extensive error checking mechanisms. It is because it provides flow control and acknowledgment of data.
@@ -7,6 +7,7 @@ Which of this is not true?
 - There is not sequencing of data in TCP. If ordering is requiered, it has to be managed by the application layer.
 - TCP is a connection-oriented protocol.
 
-Answer: " There is not sequencing of data in TCP. If ordering is requiered, it has to be managed by the application layer." is not TRUE.
+ :pencil2: **Answer:**
+**There is not sequencing of data in TCP. If ordering is requiered, it has to be managed by the application layer." is not TRUE.**
 
 
