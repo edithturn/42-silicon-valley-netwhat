@@ -8,6 +8,7 @@
 - TCP is a connection-oriented protocol.
 
  :pencil2: **Answer:**
+
 **There is not sequencing of data in TCP. If ordering is requiered, it has to be managed by the application layer." is not TRUE.**
 
 
