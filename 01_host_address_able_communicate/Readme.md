@@ -15,8 +15,7 @@ On a computer network, all devices that are connected to the same local network 
 
 
 :pencil2: **Answer:**
-21.121.241.69 would be able to communicate with 21.121.54.71/15.
-
+**21.121.241.69** would be able to communicate with **21.121.54.71/15.**
 
 :fireworks: **Reference:**
-- [IP addresses](https://www.homenethowto.com/basics/ip-addresses/)
+[IP addresses](https://www.homenethowto.com/basics/ip-addresses/)
