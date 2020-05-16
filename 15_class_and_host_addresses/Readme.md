@@ -1,4 +1,4 @@
-Which class of IP address has the most host addresses available by default?
+**Which class of IP address has the most host addresses available by default?**
 
 - B
 - C
@@ -8,5 +8,5 @@ Which class of IP address has the most host addresses available by default?
 
 ![alt text](ip_address_class.png)
 
-Answer: class A
-supports 16 million hosts on each 127 networks.
+ :pencil2: **Answer:**
+**Class A supports 16 million hosts on each 127 networks.**
