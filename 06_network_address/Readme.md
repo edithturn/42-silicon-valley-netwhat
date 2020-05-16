@@ -9,9 +9,11 @@
 
 ![alt text](network_address.png)
 
-Reference: 
-Calc:
-http://www.aboutmyip.com/AboutMyXApp/SubnetCalculator.jsp?ipAddress=120.2.67.128&cidr=15
 
-Calculate Network:
-https://www.youtube.com/watch?time_continue=72&v=hb2yTNT2rBU&feature=emb_logo
+:pencil2: **Answer:**
+**250.160.64.0**
+
+:fireworks: **References:**
+
+- [Calc](http://www.aboutmyip.com/AboutMyXApp/SubnetCalculator.jsp?ipAddress=120.2.67.128&cidr=15)
+- [Calculate Network](https://www.youtube.com/watch?time_continue=72&v=hb2yTNT2rBU&feature=emb_logo)

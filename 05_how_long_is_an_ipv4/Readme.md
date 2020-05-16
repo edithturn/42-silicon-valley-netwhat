@@ -21,4 +21,4 @@ This new IP address version is being deployed to fulfill the need for more Inter
 **32-bits**
 
 :fireworks: **Reference:**
-- [IPv4](https://www.guru99.com/difference-ipv4-vs-ipv6.html)
+[IPv4](https://www.guru99.com/difference-ipv4-vs-ipv6.html)
