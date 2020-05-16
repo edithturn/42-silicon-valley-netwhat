@@ -10,7 +10,7 @@ With UDP, computer applications can send messages, in this case referred to as d
 there is no guarantee of delivery, ordering, or duplicate protection.
 - UDP has only the basic error checking mechanism using checksums:
 UDP provides checksums for data integrity, and port numbers for addressing different functions at the source and destination of the datagram. 
-- UDP is comparatively ower than TCP
+- UDP is comparatively slower than TCP
 
 
 ![alt text](comparison_udp_utp.png)

@@ -1,14 +1,11 @@
-# Netwhat
+# Netwhat :fish: :dragon_face:
 This project is an introduction to **network  problematics**.
 
 **Netwhat** will allow you to discover the **network** and to learn about its inner workings.
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
-**Before to Start**
-Study study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training: 
-
-:fish: :dragon_face:
+Before to Start, study study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training: 
 
 ```python
 python nwtwhat_app.py
