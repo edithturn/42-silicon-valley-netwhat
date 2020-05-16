@@ -174,8 +174,6 @@ In computer networking, a port is a communication endpoint. At the software leve
 - [training to nwtwhat](https://github.com/abdlalisalmi/netwhat-trainer)
 
 
-:girl: :information_source: 
-
-**The concepts were extracted from various web resources for educational purposes only.**
+:girl: :fireworks:  The concepts were extracted from various web resources for educational purposes only.
 
 
