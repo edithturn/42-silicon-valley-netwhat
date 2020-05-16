@@ -9,6 +9,23 @@ Before to Start, study study the section **"Basic Concepts"**, the topics descri
 
 ```python
 python nwtwhat_app.py
+
+01. If an Ethernet port on a router were assigned an IP address of 21.121.54.71/15, which host address would be able to communicate with it? 
+
+ (a) 166.121.177.233 
+ (b) 95.199.103.46 
+ (c) 21.121.241.69 
+ (d) 244.28.220.100 
+ (e) 198.58.153.142 
+ (f) 79.46.141.190 
+ (g) 167.232.175.162
+
+
+Your Answer: c
+[ OK ]
+
+You got 1/20 Correct
+Time taken: 00:00:20
 ```
 
 ## Basic Concepts :books:
@@ -151,13 +168,14 @@ In computer networking, a port is a communication endpoint. At the software leve
 - [How to Find the Broadcast Address](https://www.youtube.com/watch?v=1pZNjRZLNqI)
 - [Introduction to Networking](https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8)
 - [IP-Calculator](http://jodies.de/ipcalc?host=148.12.181.53&mask1=20&mask2=)
-- [How does DNS work](ttps://www.cloudflare.com/learning/dns/what-is-dns/)
+- [How does DNS work?](https://www.cloudflare.com/learning/dns/what-is-dns/)
 - [What Is an Ethernet Port](https://www.lifewire.com/what-is-an-ethernet-port-817546)
 - [ips addres calculation table](https://docs.google.com/spreadsheets/d/1xzRgyd6p33f28tBspiDal5zapNMFqIewdF_4bOat4SI/edit?usp=sharing) by Michael Giraldo @mgiraldo
 - [training to nwtwhat](https://github.com/abdlalisalmi/netwhat-trainer)
 
 
-:information_source: 
+:girl: :information_source: 
+
 **The concepts were extracted from various web resources for educational purposes only.**
 
 
