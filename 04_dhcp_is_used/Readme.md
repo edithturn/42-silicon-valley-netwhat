@@ -1,4 +1,4 @@
-DHCP is used for _____________
+**DHCP is used for _____________**
 
 - Both IPv6 and IPv4
 - None of the mentioned
@@ -9,4 +9,5 @@ The original and most comprehensive implementation of the DHCP service is offere
 
 DHCP is the standard way network adminstrator assign IP addresses in IPv4 networks, but eventually organizations will have to pick between two protocols created specifically for IPv6 as the use of this newer IP protocol grows.
 
-Answer:  Both IPv6 and IPv4
+:pencil2: **Answer:**
+Both IPv6 and IPv4
