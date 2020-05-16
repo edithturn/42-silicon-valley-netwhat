@@ -6,13 +6,15 @@ This will allow you to understand how some things work that you already use in y
 everyday life.
 
 **Before to Start**
-Study the topics described below. To start the quiz execute the following command:
+Study study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training: 
+
+:fish: :dragon_face:
 
 ```python
 python nwtwhat_app.py
 ```
 
-## Basic Concepts
+## Basic Concepts :books:
 First of all, you should know a few things:
 
 ### 1. What is an IP address?
@@ -149,34 +151,16 @@ In computer networking, a port is a communication endpoint. At the software leve
 
 **References :**
 
-- https://www.youtube.com/watch?v=1pZNjRZLNqI
-- https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8
-- http://jodies.de/ipcalc?host=148.12.181.53&mask1=20&mask2=
-- https://www.cloudflare.com/learning/dns/what-is-dns/
-- https://www.lifewire.com/what-is-an-ethernet-port-817546
--https://acromag.com/wp-content/uploads/2019/06/How-to-Connect-to-an-Ethernet-Device-for-Communication.pdf
--  IP-Calculator
-http://jodies.de/ipcalc?host=255.255.192.0&mask1=&mask2=
-- ips addres calculation table by @mgiraldo  
-https://docs.google.com/spreadsheets/d/1xzRgyd6p33f28tBspiDal5zapNMFqIewdF_4bOat4SI/edit?usp=sharing
-- to continue training to nwtwhat
-https://github.com/abdlalisalmi/netwhat-trainer
-
-
-[GitHub Pages](https://pages.github.com/)
-
-###  Technical Terms
-
-| Terms | Definition |
-| ------------- | -------------------------- |
-| subnet mask  	| A subnet mask is a number that defines a range of IP addresses available within a network. 			 |
-| Ethernet port  	| also called a jack or socket, is an opening on computer network equipment that Ethernet cables plug into. Their purpose is to connect wired network hardware in an Ethernet LAN, metropolitan are network (MAN), or wide are network (WAN). 	|
-| host address | The physcal address of a computer in a network. On the internet, a host address is the IP address of the machine. |
-| Ethernet | is a system of connecting more than two devises from a Local Area (LAN for sharing information or resources) |
-| Calculator  | .https://www.browserling.com/tools/ip-to-bin  |
+- [How to Find the Broadcast Address](https://www.youtube.com/watch?v=1pZNjRZLNqI)
+- [Introduction to Networking](https://www.youtube.com/watch?v=cNwEVYkx2Kk&list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8)
+- [IP-Calculator](http://jodies.de/ipcalc?host=148.12.181.53&mask1=20&mask2=)
+- [How does DNS work](ttps://www.cloudflare.com/learning/dns/what-is-dns/)
+- [What Is an Ethernet Port](https://www.lifewire.com/what-is-an-ethernet-port-817546)
+- [ips addres calculation table](https://docs.google.com/spreadsheets/d/1xzRgyd6p33f28tBspiDal5zapNMFqIewdF_4bOat4SI/edit?usp=sharing) by Michael Giraldo @mgiraldo
+- [training to nwtwhat](https://github.com/abdlalisalmi/netwhat-trainer)
 
 
 :information_source: 
-The concepts were extracted from various web resources for educational purposes only.
+**The concepts were extracted from various web resources for educational purposes only.**
 
 
