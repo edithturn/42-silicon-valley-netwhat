@@ -1,12 +1,13 @@
 # Netwhat
-This project is an introduction to **network problematics**
+This project is an introduction to **network  problematics**.
 
-**Netwhat** will allow you to discover the network and to learn about its inner workings.
+**Netwhat** will allow you to discover the **network** and to learn about its inner workings.
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
-**Before to start**
-Before to starting the quiz, you need to study the topics described below. To start the quiz execute the following command: 
+**Before to Start**
+Study the topics described below. To start the quiz execute the following command:
+
 ```python
 python nwtwhat_app.py
 ```
@@ -15,10 +16,16 @@ python nwtwhat_app.py
 
 ### 1. What is an IP address 
 It is a network address for our computers and the internet knows where to send informations and data.
-<network> <host>
+Every website (42, Microsoft, Apple, etc.) has a unique IP address, but it goes by its name instead (42, Microsoft, Apple, etc.) But without IP addresses you couldn't connect with them and they couldn't share information with you.
+
+* IP Addres is composed of:   [ network  ]  [ host  ]
+**Example:**
+```bash
+	66.171.248.170
+```
 
 ### 2. What is a Netmask
-A Netmask is a 32-bit "mask" used to divide an IP address into subnets and specify the network's available hosts.
+A Netmask is a 32-bit **"mask"** used to divide an IP address into subnets and specify the network's available hosts.
 
 
 ### 3. What is the subnet of an IP with Netmask
@@ -251,7 +258,10 @@ HOW TO CONNECT TO AN ETHERNET DEVICE FOR COMMUNICATION
 | Ethernet port  	| also called a jack or socket, is an opening on computer network equipment that Ethernet cables plug into. Their purpose is to connect wired network hardware in an Ethernet LAN, metropolitan are network (MAN), or wide are network (WAN). 	|
 | host address | The physcal address of a computer in a network. On the internet, a host address is the IP address of the machine. |
 | Ethernet | is a system of connecting more than two devises from a Local Area (LAN for sharing information or resources) |
+| Calculator  | .https://www.browserling.com/tools/ip-to-bin  |
 
+
+https://github.com/abdlalisalmi/netwhat-trainer
 
 
 **

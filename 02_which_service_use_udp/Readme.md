@@ -1,3 +1,11 @@
+Which of the following services use UDP?
+1. DHCP  
+2. SMTP
+3. FTP
+4. HTTP
+5. All of the above
+
+
 UDP:  (User Datagram Protocol) is a communication protocol that is primarily used for establishing low-latency and loss-tolerating connections between application on the internet.
 
 
@@ -8,3 +16,6 @@ SMTP: (Simple Mail Transfer Protocol), is a mail transport protocol, and in mail
 FTP: (File Transfer Protocol)  Is a way to transfer file online (between a client and server on a computer network), uses the TCP protocol because the file transfer has to be correct.
 
 HTTP: (Hipertext Transfer Protocol) is a protocol used by the World Wide Web, and this protocol defines how messages are formated and transmitted, and what actions Web servers and browsers should take in response to several commands. Uses TCP instead of UDP because it guarantees delivery via a three-way handshake and re-transmission of lost packets.
+
+
+Answer: DHCP
