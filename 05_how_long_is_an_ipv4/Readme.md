@@ -1,4 +1,4 @@
-How long is an IPv4 address?
+**How long is an IPv4 address?**
 
 - 64 bits
 - 128 bits
@@ -17,6 +17,8 @@ What is a IPv6?
  
 This new IP address version is being deployed to fulfill the need for more Internet addreess. It was aimed to reolve issues which are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. IPv6 also called IPng (Internet Protocol next generation)
 
-Answer: 32-bits.
+:pencil2: **Answer:**
+**32-bits**
 
-Reference: https://www.guru99.com/difference-ipv4-vs-ipv6.html
+:fireworks: **Reference:**
+- [IPv4](https://www.guru99.com/difference-ipv4-vs-ipv6.html)
