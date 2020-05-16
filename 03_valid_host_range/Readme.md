@@ -7,14 +7,10 @@ Calculating the range:
 
 ![alt text](last_valid_host.png)
 
+:pencil2: **Answer:**
+**[ 120.2.0.1 - 120.3.255.254 ]**
 
-### The answer is :  [ 120.2.0.1 - 120.3.255.254 ]
 
-
-
-**References:**
-
-|||
-| ------------- | ------------- |
-| How calculate range  | https://www.youtube.com/watch?v=uyRtYUg6bnw  |
-| Calculator  | http://www.aboutmyip.com/AboutMyXApp/SubnetCalculator.jsp?ipAddress=120.2.67.128&cidr=15  |
+:fireworks: **References:**
+[IP addresses](https://www.youtube.com/watch?v=uyRtYUg6bnw/)
+[Calculator](http://www.aboutmyip.com/AboutMyXApp/SubnetCalculator.jsp?ipAddress=120.2.67.128&cidr=15)
