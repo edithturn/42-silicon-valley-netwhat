@@ -8,8 +8,13 @@ everyday life.
 Before to Start, study study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training with the following program done in Python:
 
 ```python
+//Install the colorama dependency for color effect in the quiz
+pip install colorama
+//Run the Quiz
 python nwtwhat_app.py
+```
 
+```python
 01. If an Ethernet port on a router were assigned an IP address of 21.121.54.71/15, which host address would be able to communicate with it? 
 
  (a) 166.121.177.233 
