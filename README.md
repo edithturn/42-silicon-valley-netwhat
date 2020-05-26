@@ -9,6 +9,8 @@ Before to Start, study study the section **"Basic Concepts"**, the topics descri
 
 ### Run the Quiz
 
+**pre requirements: Python 3.7.3**
+
 ```python
 pip install colorama
 python nwtwhat_app.py
