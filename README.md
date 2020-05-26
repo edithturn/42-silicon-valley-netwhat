@@ -7,10 +7,10 @@ everyday life.
 
 Before to Start, study study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training with the following program done in Python:
 
+### Run the Quiz
+
 ```python
-//Install the colorama dependency for color effect in the quiz
 pip install colorama
-//Run the Quiz
 python nwtwhat_app.py
 ```
 
