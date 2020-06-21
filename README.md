@@ -184,3 +184,5 @@ In computer networking, a port is a communication endpoint. At the software leve
 :girl: :fireworks:  The concepts were extracted from various web resources for educational purposes only.
 
 
+### netwhat pdf  new curriculum
+[Download from HERE](https://drive.google.com/file/d/1tdO_BJOw1-CGktGinTJxhxjd2qrElNjV/view?usp=sharing)
