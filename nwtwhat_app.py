@@ -54,7 +54,7 @@ def run_test(questions):
 	score = 0
 	from colorama import Fore, Back, Style
 	start_time = time.time()
-	print (Fore.GREEN  + "\n********************************************* Nwtwhat - 42 Silicon Valley *********************************************\n")
+	print (Fore.GREEN  + "\n********************************************* Netwhat - 42 Silicon Valley *********************************************\n")
 	for question in questions:
 		print(Style.RESET_ALL)
 		print (question.prompt)
