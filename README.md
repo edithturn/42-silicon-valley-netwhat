@@ -5,7 +5,7 @@ This project is an introduction to **network  problematics**.
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
-Before to Start, study study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training with the following program done in Python:
+Before you Start, study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training with the following program done in Python:
 
 ### Run the Quiz
 
