@@ -54,11 +54,11 @@ def run_test(questions):
 	score = 0
 	from colorama import Fore, Back, Style
 	start_time = time.time()
-	print (Fore.GREEN  + "\n********************************************* Netwhat - 42 Silicon Valley *********************************************\n")
+        print (Fore.GREEN  + "\n********************************************* Netwhat - 42 Lisboa *********************************************\n")
 	for question in questions:
 		print(Style.RESET_ALL)
 		print (question.prompt)
-		answer = input("Your Answer: ")
+		answer = raw_input("Your Answer: ") 
 		if answer == question.answer:
 			print (Fore.GREEN + " [ OK ] \n")
 			score += 1
