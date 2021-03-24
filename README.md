@@ -5,7 +5,7 @@ This project is an introduction to **network  problematics**.
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
-Before you start, study the section [Basic Concepts](#Basic-Concepts).  When you're ready, run the program built in python:
+Before you start, study the section [Basic Concepts](#Basic-Concepts-:books:).  When you're ready, run the program built in python:
 
 ## **Run the Quiz**
 
@@ -33,8 +33,7 @@ Your Answer: c
 You got 1/20 Correct
 Time taken: 00:00:20
 ``` 
-## Basic Concepts
-## :books: :wine_glass:
+## Basic Concepts :books:
 
 ### :zero::one: **What is an IP address?**
 It is a network address for our computers and the internet knows where to send informations and data.
