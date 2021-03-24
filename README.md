@@ -161,7 +161,7 @@ The **Domain Network System (DNS) protocol** helps internet users and network de
 ### :one::four: **What are the rules to make 2 devices communicate using IP addresses?**
 
 <p align="center">
-  <img width="460" height="300" src="imgs/process.png">
+  <img width="460" height="460" src="imgs/process.png">
 </p>
 
 ### :one::five: **How does routing work with IP?**
