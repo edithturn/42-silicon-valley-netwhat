@@ -5,15 +5,14 @@ This project is an introduction to **network  problematics**.
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
-Before you Start, study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training with the following program done in Python:
+Before you start, study the section [Basic Concepts](#Basic-Concepts).  When you're ready, run the program built in python:
 
-### Run the Quiz
+## **Run the Quiz**
 
-**Pre requirements: Python 3.7.3**
-
+**:bell: Requirements:** Python 3.7.3
 ```python
 pip install colorama
-python nwtwhat_app.py
+python3 nwtwhat_app.py
 ```
 
 ```python
@@ -35,8 +34,7 @@ You got 1/20 Correct
 Time taken: 00:00:20
 ```
 
-
-## Basic Concepts :books:
+## Basic Concepts
 First of all, you should know a few things:
 
 ### 1. What is an IP address?
