@@ -36,7 +36,7 @@ Time taken: 00:00:20
 ## Basic Concepts
 ## :books: :wine_glass:
 
-### ** :zero: :one: What is an IP address?**
+### :zero::one: **What is an IP address?**
 It is a network address for our computers and the internet knows where to send informations and data.
 Every website (42, Microsoft, Apple, etc.) has a unique IP address, but it goes by its name instead (42, Microsoft, Apple, etc.) But without IP addresses you couldn't connect with them and they couldn't share information with you.
 IP Addres is composed of:  **[ network  ]  [ host  ]**
