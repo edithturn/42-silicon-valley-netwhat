@@ -5,15 +5,14 @@ This project is an introduction to **network  problematics**.
 This will allow you to understand how some things work that you already use in your
 everyday life.
 
-Before you Start, study the section **"Basic Concepts"**, the topics described below.  When you're ready start with your training with the following program done in Python:
+Before you start, study the section [Basic Concepts](#Basic-Concepts-:books:).  When you're ready, run the program built in python:
 
-### Run the Quiz
+## **Run the Quiz**
 
-**Pre requirements: Python 3.7.3**
-
+**:bell: Requirements:** Python 3.7.3
 ```python
 pip install colorama
-python nwtwhat_app.py
+python3 nwtwhat_app.py
 ```
 
 ```python
@@ -33,67 +32,77 @@ Your Answer: c
 
 You got 1/20 Correct
 Time taken: 00:00:20
-```
-
-
+``` 
 ## Basic Concepts :books:
-First of all, you should know a few things:
 
-### 1. What is an IP address?
+### :zero::one: **What is an IP address?**
 It is a network address for our computers and the internet knows where to send informations and data.
 Every website (42, Microsoft, Apple, etc.) has a unique IP address, but it goes by its name instead (42, Microsoft, Apple, etc.) But without IP addresses you couldn't connect with them and they couldn't share information with you.
 IP Addres is composed of:  **[ network  ]  [ host  ]**
 **IP Addres Example:**
-```bash
-	66.171.248.170
+```console
+66.171.248.170
 ```
 
-### 2. What is a Netmask?
+### :zero::two: **What is a Netmask?**
 A Netmask is a 32-bit **"mask"** used to divide an IP address into subnets and specify the network's available hosts.
 
-### 3. What is the subnet of an IP with Netmask
+### :zero::three: **What is the subnet of an IP with Netmask**
 It is called a subnet mask because it is used to identify network address of an IP address by perfoming a bitwise AND operation on the netmask.
-```bash
-	<network> <subnet> <host>
+```console
+<network> <subnet> <host>
 ```
 
-### 4. What is the broadcast address of a subnet?
+### :zero::four: **What is the broadcast address of a subnet?**
 Highest IP address in a subnet or network, used as the destination IP address for broadcast messages.
 
-### 5. What are the different ways to represent an ip address with the Netmask?
+### :zero::five: **What are the different ways to represent an ip address with the Netmask?**
 
 Netmask is a 32-bit "mask" used to divide an IP address into subnets and specify the network's available hosts.
 
-```bash
-255.255.255.0 is applied to the 129.144.41.101 , the result is the IPv4 address of 129.144.41.0
+Example:
+```console
+255.255.255.0
+# Applied to
+129.144.41.101
+# The result is the IPv4 address of 
+129.144.41.0
 ```
-129.144.41.101 **AND** 255.255.255.0 = **129.144.41.0**
+```console
+129.144.41.101 
+# Applied to
+255.255.255.0
+# The result is:
+129.144.41.0
+```
+**In binary form, the operation is:**
 
-In binary form, the operation is:
-
-```bash
-10000001.10010000.00101001.01100101		<== (IPv4 address)
-AND
-11111111.11111111.11111111.00000000		<==(netmask)
+```console
+  10000001.10010000.00101001.01100101  # IPv4 address [AND] Netmask
+# |||||||| |||||||| |||||||| ||||||||
+  11111111.11111111.11111111.00000000 
+# |||||||| |||||||| |||||||| ||||||||
+# vvvvvvvv vvvvvvvv vvvvvvvv vvvvvvvv
+  10000001.10010000.00101001.00000000  # 129.144.41.0/24
 ```
 
-### 6. What are the differences between public and private IPs?
+### :zero::six: **What are the differences between public and private IPs?**
 
 Public Ip  can to be static or dynamic.
  - A static address is unchanged and is often for hosting websites, server.
  - A dynamic address are chasen from a "pool" of available addresses and will be changed each time user connects.
 
-### 7. What is a class of IP addresses?
+### :zero::seven: **What is a class of IP addresses?**
 
-IP address in class A, class B and class C.
+IP address in class **A**, class **B** and class **C**.
 
-| Class	|  Starting IP address	| Ending Ip Address|  # of hots | 
+| Class	|  Starting IP address	| Ending Ip Address|  Number of Host | 
 --------|-----------------------|------------------|------------| 
 |  A 	| 10.0.0.0		| 10.255.255.255   | 16,777,216 |
 |  B 	| 172.16.0.0		| 172.31.255.255   | 1,048,576  |
 |  C 	| 192.168.0.0		| 192.168.255.255  | 65,536     |
 
-### 8. What is TCP?
+### :zero::eight: **What is TCP?**
 
 TCP (Transmision Control Protocol)
 Main protocols of the internet protol suite.
@@ -103,7 +112,7 @@ Main protocols of the internet protol suite.
 - Slower, because of all added additional functionality.
 - Requieres more computer resources, because the OS needs to keep track of ongoing communication sessions and manage them on a much deeper level.
 
-### 9. What is UDP?
+### :zero::nine: **What is UDP?**
 
 - Doesn't keep track of lost packages
 - Doesn't care about package arrival order.
@@ -119,11 +128,11 @@ Main protocols of the internet protol suite.
 
 Many applications that requiere real-time communication prefer to use UDP, applications that requiere speed and that torerat partial data loss.
 
-### 10. What are the network layers?
+### :keycap_ten: **What are the network layers?**
 
 In the seven-layer OSI model of computer network, the network layer is layer 3. The network layer is responsible for packet forwarding including routing through intermediate routers.
 
-### 11. What is the OSI model?
+### :one::one: **What is the OSI model?**
 
 The Open System Interconnection (OSI). It has been developed by ISO - 'International Organization of Standardization'. It is a 7 layer architecture with each layer having specific functionality to perform. All tese 7 layers work collaboratively to transmit the data fr4om one person to another across the globe.
 
@@ -138,21 +147,23 @@ The Open System Interconnection (OSI). It has been developed by ISO - 'Internati
  | Physical layer	| hardware Layer |
 
 
-### 12. What is a DHCP server and the DHCP protocol
+### :one::two: **What is a DHCP server and the DHCP protocol**
  
  DHCP server: DHCP (Dynamic Host Confivguration Protocol), is a protocol that provides quick, automatic, and central management for the distribution of IP addresses within a network. DHCP is also used to configure  the subnet mask, default gateway and DNS server information on the device.
 
-### 13. What is a DNS server and the DNS protocol?
+### :one::three: **What is a DNS server and the DNS protocol?**
 
 Domain Name System (DNS) is the phonebook of internet. Web browsers interact through Internet Protocol (IP) addresses. DNS translates domain names to IP addresses so browsers can load internet resources.
 
 The **Domain Network System (DNS) protocol** helps internet users and network devises discover websites using human-readable hostnames, instead of  numeric IP addresses.
 
-### 14. What are the rules to make 2 devices communicate using IP addresses?
+### :one::four: **What are the rules to make 2 devices communicate using IP addresses?**
 
-![alt text](imgs/process.png)
+<p align="center">
+  <img width="460" height="460" src="imgs/process.png">
+</p>
 
-### 15. How does routing work with IP?
+### :one::five: **How does routing work with IP?**
 
 - Routing is the process by which data packets move from one node (machine or device) to another on a computer network until the packets reach the final destination.
 
@@ -161,11 +172,11 @@ The header information includes:
 - Packet numbers that help reassemble the packets in the correct order whe  the packets reach the destination. 
 - Other useful technical information.
 
-### 16. What is a default gateway for routing?
+### :one::six: **What is a default gateway for routing?**
 
  It allows devices within one network to send information to devises within another network. If you are requestiong a certain web page, the trafic is first sent to your default gateay before leaving the local network to reach its indended destination.
 
-### 17. What is a port from an IP point of view and what is it used for when connecting?
+### :one::seven: **What is a port from an IP point of view and what is it used for when connecting?**
 
 In computer networking, a port is a communication endpoint. At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. 
  Ports are identified for each protocol and address combination by 16-bit unsigned numbers, commonly known as the port number. The most common protocols that use port numbers are the Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP).
@@ -184,5 +195,5 @@ In computer networking, a port is a communication endpoint. At the software leve
 :girl: :fireworks:  The concepts were extracted from various web resources for educational purposes only.
 
 
-### netwhat pdf  new curriculum
-[Download from HERE](https://drive.google.com/file/d/1tdO_BJOw1-CGktGinTJxhxjd2qrElNjV/view?usp=sharing)
+### Netwhat pdf  new curriculum
+* [Download from HERE](https://drive.google.com/file/d/1tdO_BJOw1-CGktGinTJxhxjd2qrElNjV/view?usp=sharing)
