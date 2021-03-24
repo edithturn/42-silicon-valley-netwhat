@@ -78,7 +78,7 @@ Example:
 ```
 **In binary form, the operation is:**
 
-```bash
+```console
   10000001.10010000.00101001.01100101  # IPv4 address [AND] Netmask
 # |||||||| |||||||| |||||||| ||||||||
   11111111.11111111.11111111.00000000 
@@ -196,5 +196,5 @@ In computer networking, a port is a communication endpoint. At the software leve
 :girl: :fireworks:  The concepts were extracted from various web resources for educational purposes only.
 
 
-### netwhat pdf  new curriculum
-[Download from HERE](https://drive.google.com/file/d/1tdO_BJOw1-CGktGinTJxhxjd2qrElNjV/view?usp=sharing)
+### Netwhat pdf  new curriculum
+* [Download from HERE](https://drive.google.com/file/d/1tdO_BJOw1-CGktGinTJxhxjd2qrElNjV/view?usp=sharing)
