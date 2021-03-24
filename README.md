@@ -41,7 +41,7 @@ It is a network address for our computers and the internet knows where to send i
 Every website (42, Microsoft, Apple, etc.) has a unique IP address, but it goes by its name instead (42, Microsoft, Apple, etc.) But without IP addresses you couldn't connect with them and they couldn't share information with you.
 IP Addres is composed of:  **[ network  ]  [ host  ]**
 **IP Addres Example:**
-```bash
+```console
 66.171.248.170
 ```
 
@@ -50,7 +50,7 @@ A Netmask is a 32-bit **"mask"** used to divide an IP address into subnets and s
 
 ### :zero::three: **What is the subnet of an IP with Netmask**
 It is called a subnet mask because it is used to identify network address of an IP address by perfoming a bitwise AND operation on the netmask.
-```bash
+```console
 <network> <subnet> <host>
 ```
 
@@ -62,14 +62,14 @@ Highest IP address in a subnet or network, used as the destination IP address fo
 Netmask is a 32-bit "mask" used to divide an IP address into subnets and specify the network's available hosts.
 
 Example:
-```bash
+```console
 255.255.255.0
 # Applied to
 129.144.41.101
 # The result is the IPv4 address of 
 129.144.41.0
 ```
-```bash
+```console
 129.144.41.101 
 # Applied to
 255.255.255.0
