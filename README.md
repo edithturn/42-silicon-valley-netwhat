@@ -36,7 +36,7 @@ Time taken: 00:00:20
 ## Basic Concepts
 ## :books: :wine_glass:
 
-### **1. What is an IP address?**
+### ** :zero: :one: What is an IP address?**
 It is a network address for our computers and the internet knows where to send informations and data.
 Every website (42, Microsoft, Apple, etc.) has a unique IP address, but it goes by its name instead (42, Microsoft, Apple, etc.) But without IP addresses you couldn't connect with them and they couldn't share information with you.
 IP Addres is composed of:  **[ network  ]  [ host  ]**
@@ -160,7 +160,9 @@ The **Domain Network System (DNS) protocol** helps internet users and network de
 
 ### **14. What are the rules to make 2 devices communicate using IP addresses?**
 
-![alt text](imgs/process.png)
+<p align="center">
+  <img width="460" height="300" src="imgs/process.png">
+</p>
 
 ### **15. How does routing work with IP?**
 
